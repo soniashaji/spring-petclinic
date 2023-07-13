@@ -16,4 +16,4 @@ COPY /target/*.jar /app
 EXPOSE 8080
 
 # Run jar file when the container launches
-CMD ["java", "-jar", "spring-boot-starter-parent.jar"]
+CMD ["java", "-jar", "spring-boot-starter-parent-3.1.1.jar"]
